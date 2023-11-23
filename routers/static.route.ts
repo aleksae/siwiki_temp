@@ -16,3 +16,8 @@ router.get('/subjects/:study_program_id/:semester', /**poziv odgovarajuce metode
  * ruta vraća sve nastavnike
  */
 router.get('/teachers/all', /**poziv odgovarajuce metode kontrolera*/);
+
+/**
+ * ruta vraća sve predmete koje drzi nastavnik
+ */
+router.get('/subjects/:teacher', /**poziv odgovarajuce metode kontrolera*/);
