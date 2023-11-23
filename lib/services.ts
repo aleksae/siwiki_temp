@@ -17,3 +17,8 @@ export function hasAccess(token:string) {
 export function sendDiscordNotification(message:string){
      //returns true or false depending on success of sending
 }
+
+export function isResponseOK(message:string){
+    //returns true if resposne is ok, false if not
+    //to be called for every resposne with free text input field
+}

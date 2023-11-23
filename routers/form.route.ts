@@ -12,7 +12,7 @@ const router = Router();
     ]
    }
  */
-router.get('/all', /**poziv odgovarajuce metode kontrolera*/);
+router.get('/form/all', /**poziv odgovarajuce metode kontrolera*/);
 
 /**
  * isti format kao za all, samo vraća jednu formu, onu ciji je id prosledjen. U slucaju da forme nema, vraca se prazan json
